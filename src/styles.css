@@ -23,7 +23,6 @@ body {
     background-position: center;
     line-height: 1.5;
 
-
 }
 
 header {
@@ -39,18 +38,23 @@ button {
     padding: .3em .5em;
     border-radius: 5px;
     border: none;
-    margin-left: 1em;
-    font-weight: bold;
+    margin-left: .5em;
+    font-weight: 500;
     background-color: var(--clr-sec);
     font-family: inherit;
     font-size: 1rem;
     color: var(--clr-text);
 }
 
-img {
+.logo-pic {
     width: 50px;
     height: auto;
     border-radius: 50%;
+}
+
+.prof-pic {
+    width: 300px;
+    border-radius: 5px;
 }
 
 
@@ -61,21 +65,76 @@ img {
     gap: .5em;
 }
 
+.menu-container {
+    border: 1px solid var(--clr-text);
+    margin: 1em auto;
+    border-radius: 5px;
+}
+
 .content {
-    width: 80%;
+    width: 90%;
     margin: 1em auto;
 }
 
 .info-tile {
-    width: 70%;
+    width: 80%;
     margin: 1em auto;
     background: var(--clr-sec);
-    border: 5px solid  var(--clr-extra);
+    border: 1px solid  var(--clr-extra);
     padding: 1em;
     border-radius: 5px;
     font-size: 1.3rem;
 }
 
+.logo-heading {
+    font-size: 1.5rem;
+}
+
+.site-heading {
+    font-size: 3rem;
+}
+
+.menu  {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.menu p {
+    font-size: 1.5rem;
+}
+
 li {
     list-style: none;
+    font-size: 1.5rem;
+}
+
+.profile {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 850px) {
+    
+    .info-tile {
+        width: 50%;
+    }
+
+    .menu {
+        width: 50%;
+    }
+
+    .menu-container {
+        width: 50%;
+    }
+
+    button  {
+        font-size: 1.2rem;
+    }
+
+    .logo-heading {
+        font-size: 2rem;
+    }
+
 }

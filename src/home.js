@@ -1,11 +1,11 @@
 export  const homeHtml = `
-           <h1>Chibi Hat Restaurant</h1>
+           <h1 class="site-heading">Chibi's Fast Foods</h1>
 
             <div class="info-tile">
                 <article>
-                    Chibi hat has the best pizza. The atmosphere and
+                    "Chibi hat has the best pizza. The atmosphere and
                     customer service  makes you feel like you're in Italy.
-                    You won't mind the chef is a cat
+                    You won't mind the chef is a cat"
                 </article>
                 <p>Ratatolie</p>
             </div>
@@ -25,6 +25,7 @@ export  const homeHtml = `
             </div>
 
             <div class="info-tile">
+                <h1>Location</h1>
                 <p>123 Cat Avenue,Catsville, Maine</p>
             </div>
     `
